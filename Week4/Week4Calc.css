@@ -10,9 +10,9 @@ body {
 
 .calculator {
   text-align: center;
-  background: rgb(36, 219, 97);
+  background: rgb(187, 223, 31);
   margin: 50px auto;
-  width: 40%;
+  width: 60%;
   padding: 20px 5px;
 }
 
@@ -41,11 +41,11 @@ select {
 
 .result {
   text-align: center;
-  color: rgb(35, 202, 91);
 }
 .result h1 {
   display: none;
-  background: rgb(216, 216, 216);
+  background: white;
+  color: red;
   margin: 20px auto;
   padding: 5px;
   width: 20%;
