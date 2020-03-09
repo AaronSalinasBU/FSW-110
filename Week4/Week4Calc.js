@@ -1,7 +1,6 @@
 
 const submitBtn = document.querySelector('.submitBtn');
 
-
 submitBtn.addEventListener('click', calculate);
 
 function calculate() {
@@ -15,7 +14,6 @@ function calculate() {
   let num2 = parseFloat(input_2.value);
   let result;
   
-
   switch(operator.value) {
     case "add":
       result = num1+num2;
