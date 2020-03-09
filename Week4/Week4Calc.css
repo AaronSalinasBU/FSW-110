@@ -1,0 +1,52 @@
+* {
+  margin: 5;
+  padding: 5;
+}
+
+body {
+    background-color: cyan;
+    width: 60%;
+}
+
+.calculator {
+  text-align: center;
+  background: rgb(36, 219, 97);
+  margin: 50px auto;
+  width: 40%;
+  padding: 20px 5px;
+}
+
+.input_1, .input_2 {
+  margin: 7px auto;
+  padding: 4px;
+}
+
+select {
+  background: beige;
+  margin: 15px auto;
+}
+
+.submitBtn {
+  background: rgb(42, 42, 42);
+  margin: 10px 0px 0px 0px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: aliceblue;
+  color: black;
+}
+
+.result {
+  text-align: center;
+  color: rgb(35, 202, 91);
+}
+.result h1 {
+  display: none;
+  background: rgb(216, 216, 216);
+  margin: 20px auto;
+  padding: 5px;
+  width: 20%;
+}
